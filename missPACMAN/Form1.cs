@@ -33,9 +33,7 @@ namespace missPACMAN
         int score = 0;
 
         // end of listing variables
-        public Form1
-
-            private void ResetGame()
+        public Form1()
         {
             InitializeComponent();
             label2.Visible = false;
@@ -99,7 +97,7 @@ namespace missPACMAN
         private void timer1_Tick(object sender, EventArgs e)
         {
 
-            label1.Text = "Score: " + score; // show the score on the board
+            label.Text = "Score: " + score; // show the score on the board
 
             //player movement codes start
             if (goleft)
@@ -163,7 +161,7 @@ namespace missPACMAN
                         pacman.Top = 25;
                         label2.Text = "GAME OVER";
                         label2.Visible = true;
-                        timer1.Stop();
+                        gametimer.Stop();
 
                     }
                 }
@@ -184,21 +182,37 @@ namespace missPACMAN
             pinkGhost.Left += ghost3x;
             pinkGhost.Top += ghost3y;
 
+            redGhost.Left += ghost3x;
+            redGhost.Top += ghost3y;
+
+            yellowGhost.Left += ghost3x;
+            yellowGhost.Top += ghost3y;
+
             if (pinkGhost.Left < 1 ||
                 pinkGhost.Left + pinkGhost.Width > ClientSize.Width - 2 ||
                 (pinkGhost.Bounds.IntersectsWith(pictureBox4.Bounds)) ||
                 (pinkGhost.Bounds.IntersectsWith(pictureBox3.Bounds)) ||
                 (pinkGhost.Bounds.IntersectsWith(pictureBox1.Bounds)) ||
                 (pinkGhost.Bounds.IntersectsWith(pictureBox2.Bounds))
-                )
+                 )
             {
                 ghost3x = -ghost3x;
             }
             if (pinkGhost.Top < 1 || pinkGhost.Top + pinkGhost.Height > ClientSize.Height - 2)
-            {
+                    {
                 ghost3y = -ghost3y;
             }
             // end of the crazy ghost movements
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void resetGame(object sender, EventArgs e)
+        {
+          
         }
     }
 
