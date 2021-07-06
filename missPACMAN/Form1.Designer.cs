@@ -128,7 +128,7 @@ namespace missPACMAN
             this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox5.TabIndex = 9;
             this.pictureBox5.TabStop = false;
-            this.pictureBox5.Tag = "Coin";
+            this.pictureBox5.Tag = "coin";
             // 
             // pacman
             // 
@@ -221,7 +221,7 @@ namespace missPACMAN
             this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox6.TabIndex = 10;
             this.pictureBox6.TabStop = false;
-            this.pictureBox6.Tag = "Coin";
+            this.pictureBox6.Tag = "coin";
             // 
             // pictureBox7
             // 
@@ -232,7 +232,7 @@ namespace missPACMAN
             this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox7.TabIndex = 11;
             this.pictureBox7.TabStop = false;
-            this.pictureBox7.Tag = "Coin";
+            this.pictureBox7.Tag = "coin";
             // 
             // pictureBox8
             // 
@@ -243,7 +243,7 @@ namespace missPACMAN
             this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox8.TabIndex = 12;
             this.pictureBox8.TabStop = false;
-            this.pictureBox8.Tag = "Coin";
+            this.pictureBox8.Tag = "coin";
             // 
             // pictureBox9
             // 
@@ -254,7 +254,7 @@ namespace missPACMAN
             this.pictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox9.TabIndex = 13;
             this.pictureBox9.TabStop = false;
-            this.pictureBox9.Tag = "Coin";
+            this.pictureBox9.Tag = "coin";
             // 
             // pictureBox10
             // 
@@ -265,7 +265,7 @@ namespace missPACMAN
             this.pictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox10.TabIndex = 14;
             this.pictureBox10.TabStop = false;
-            this.pictureBox10.Tag = "Coin";
+            this.pictureBox10.Tag = "coin";
             // 
             // pictureBox11
             // 
@@ -276,7 +276,7 @@ namespace missPACMAN
             this.pictureBox11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox11.TabIndex = 15;
             this.pictureBox11.TabStop = false;
-            this.pictureBox11.Tag = "Coin";
+            this.pictureBox11.Tag = "coin";
             // 
             // pictureBox12
             // 
@@ -287,7 +287,7 @@ namespace missPACMAN
             this.pictureBox12.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox12.TabIndex = 16;
             this.pictureBox12.TabStop = false;
-            this.pictureBox12.Tag = "Coin";
+            this.pictureBox12.Tag = "coin";
             // 
             // pictureBox13
             // 
@@ -298,7 +298,7 @@ namespace missPACMAN
             this.pictureBox13.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox13.TabIndex = 17;
             this.pictureBox13.TabStop = false;
-            this.pictureBox13.Tag = "Coin";
+            this.pictureBox13.Tag = "coin";
             // 
             // pictureBox14
             // 
@@ -309,7 +309,7 @@ namespace missPACMAN
             this.pictureBox14.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox14.TabIndex = 18;
             this.pictureBox14.TabStop = false;
-            this.pictureBox14.Tag = "Coin";
+            this.pictureBox14.Tag = "coin";
             // 
             // pictureBox15
             // 
@@ -320,7 +320,7 @@ namespace missPACMAN
             this.pictureBox15.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox15.TabIndex = 19;
             this.pictureBox15.TabStop = false;
-            this.pictureBox15.Tag = "Coin";
+            this.pictureBox15.Tag = "coin";
             // 
             // pictureBox16
             // 
@@ -331,7 +331,7 @@ namespace missPACMAN
             this.pictureBox16.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox16.TabIndex = 20;
             this.pictureBox16.TabStop = false;
-            this.pictureBox16.Tag = "Coin";
+            this.pictureBox16.Tag = "coin";
             // 
             // pictureBox17
             // 
@@ -342,7 +342,7 @@ namespace missPACMAN
             this.pictureBox17.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox17.TabIndex = 21;
             this.pictureBox17.TabStop = false;
-            this.pictureBox17.Tag = "Coin";
+            this.pictureBox17.Tag = "coin";
             // 
             // pictureBox18
             // 
@@ -353,7 +353,7 @@ namespace missPACMAN
             this.pictureBox18.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox18.TabIndex = 22;
             this.pictureBox18.TabStop = false;
-            this.pictureBox18.Tag = "Coin";
+            this.pictureBox18.Tag = "coin";
             // 
             // pictureBox19
             // 
@@ -364,7 +364,7 @@ namespace missPACMAN
             this.pictureBox19.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox19.TabIndex = 23;
             this.pictureBox19.TabStop = false;
-            this.pictureBox19.Tag = "Coin";
+            this.pictureBox19.Tag = "coin";
             // 
             // pictureBox20
             // 
@@ -375,7 +375,7 @@ namespace missPACMAN
             this.pictureBox20.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox20.TabIndex = 24;
             this.pictureBox20.TabStop = false;
-            this.pictureBox20.Tag = "Coin";
+            this.pictureBox20.Tag = "coin";
             // 
             // pictureBox21
             // 
@@ -386,7 +386,7 @@ namespace missPACMAN
             this.pictureBox21.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox21.TabIndex = 25;
             this.pictureBox21.TabStop = false;
-            this.pictureBox21.Tag = "Coin";
+            this.pictureBox21.Tag = "coin";
             // 
             // pictureBox22
             // 
@@ -397,7 +397,7 @@ namespace missPACMAN
             this.pictureBox22.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox22.TabIndex = 26;
             this.pictureBox22.TabStop = false;
-            this.pictureBox22.Tag = "Coin";
+            this.pictureBox22.Tag = "coin";
             // 
             // pictureBox23
             // 
@@ -408,7 +408,7 @@ namespace missPACMAN
             this.pictureBox23.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox23.TabIndex = 27;
             this.pictureBox23.TabStop = false;
-            this.pictureBox23.Tag = "Coin";
+            this.pictureBox23.Tag = "coin";
             // 
             // pictureBox24
             // 
@@ -419,7 +419,7 @@ namespace missPACMAN
             this.pictureBox24.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox24.TabIndex = 28;
             this.pictureBox24.TabStop = false;
-            this.pictureBox24.Tag = "Coin";
+            this.pictureBox24.Tag = "coin";
             // 
             // pictureBox25
             // 
@@ -430,7 +430,7 @@ namespace missPACMAN
             this.pictureBox25.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox25.TabIndex = 29;
             this.pictureBox25.TabStop = false;
-            this.pictureBox25.Tag = "Coin";
+            this.pictureBox25.Tag = "coin";
             // 
             // pictureBox26
             // 
@@ -441,7 +441,7 @@ namespace missPACMAN
             this.pictureBox26.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox26.TabIndex = 30;
             this.pictureBox26.TabStop = false;
-            this.pictureBox26.Tag = "Coin";
+            this.pictureBox26.Tag = "coin";
             // 
             // pictureBox27
             // 
@@ -452,7 +452,7 @@ namespace missPACMAN
             this.pictureBox27.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox27.TabIndex = 31;
             this.pictureBox27.TabStop = false;
-            this.pictureBox27.Tag = "Coin";
+            this.pictureBox27.Tag = "coin";
             // 
             // pictureBox28
             // 
@@ -463,7 +463,7 @@ namespace missPACMAN
             this.pictureBox28.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox28.TabIndex = 32;
             this.pictureBox28.TabStop = false;
-            this.pictureBox28.Tag = "Coin";
+            this.pictureBox28.Tag = "coin";
             // 
             // pictureBox29
             // 
@@ -474,7 +474,7 @@ namespace missPACMAN
             this.pictureBox29.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox29.TabIndex = 33;
             this.pictureBox29.TabStop = false;
-            this.pictureBox29.Tag = "Coin";
+            this.pictureBox29.Tag = "coin";
             // 
             // pictureBox30
             // 
@@ -485,7 +485,7 @@ namespace missPACMAN
             this.pictureBox30.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox30.TabIndex = 34;
             this.pictureBox30.TabStop = false;
-            this.pictureBox30.Tag = "Coin";
+            this.pictureBox30.Tag = "coin";
             // 
             // pictureBox31
             // 
@@ -496,7 +496,7 @@ namespace missPACMAN
             this.pictureBox31.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox31.TabIndex = 35;
             this.pictureBox31.TabStop = false;
-            this.pictureBox31.Tag = "Coin";
+            this.pictureBox31.Tag = "coin";
             // 
             // pictureBox32
             // 
@@ -507,7 +507,7 @@ namespace missPACMAN
             this.pictureBox32.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox32.TabIndex = 36;
             this.pictureBox32.TabStop = false;
-            this.pictureBox32.Tag = "Coin";
+            this.pictureBox32.Tag = "coin";
             // 
             // pictureBox33
             // 
@@ -518,7 +518,7 @@ namespace missPACMAN
             this.pictureBox33.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox33.TabIndex = 37;
             this.pictureBox33.TabStop = false;
-            this.pictureBox33.Tag = "Coin";
+            this.pictureBox33.Tag = "coin";
             // 
             // pictureBox34
             // 
@@ -529,7 +529,7 @@ namespace missPACMAN
             this.pictureBox34.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox34.TabIndex = 38;
             this.pictureBox34.TabStop = false;
-            this.pictureBox34.Tag = "Coin";
+            this.pictureBox34.Tag = "coin";
             // 
             // label
             // 

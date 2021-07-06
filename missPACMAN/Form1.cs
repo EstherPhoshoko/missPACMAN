@@ -165,13 +165,20 @@ namespace missPACMAN
 
                     }
                 }
-                if (x is PictureBox && x.Tag == "coin")
-                {
-                    //checking if the player hits the points picturebox then we can add to the score
-                    if (((PictureBox)x).Bounds.IntersectsWith(pacman.Bounds))
+                if (x is PictureBox )
+
+                    if ((string) x.Tag == "coin")
                     {
-                        this.Controls.Remove(x); //remove that point
-                        score++; // add to the score
+                        if (pacman.Bounds.IntersectsWith(x.Bounds))
+
+                        {
+                            score += 1;
+                        x.Visible = false;
+                        }
+
+
+                        {
+                        
                     }
                 }
             }
