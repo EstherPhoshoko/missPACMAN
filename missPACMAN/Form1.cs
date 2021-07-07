@@ -175,13 +175,15 @@ namespace missPACMAN
                             score += 1;
                         x.Visible = false;
                         }
-
+                          
 
                         {
                         
                     }
                 }
-            }
+            }  if (score == 30)
+
+            { gmeOver("You Win"); }
 
             // end of for loop checking walls, points and ghosts. 
 
