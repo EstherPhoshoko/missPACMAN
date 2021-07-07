@@ -20,7 +20,7 @@ namespace missPACMAN
         bool goright;
 
 
-        int speed = 5;
+        int speed = 7;
 
         //ghost 1 and 2 variables. These guys are sane well sort of
         int ghost1 = 8;
@@ -97,7 +97,7 @@ namespace missPACMAN
         private void timer1_Tick(object sender, EventArgs e)
         {
 
-            label.Text = "Score: " + score; // show the score on the board
+            txtScore.Text = "Score: " + score; // show the score on the board
 
             //player movement codes start
             if (goleft)
@@ -152,7 +152,7 @@ namespace missPACMAN
             //for loop to check walls, ghosts and points
             foreach (Control x in this.Controls)
             {
-                if (x is PictureBox && x.Tag == "wall" || x.Tag == "ghost")
+                if (x is PictureBox && x.Tag == "wall" || x.Tag =="ghost")
                 {
                     // checking if the player hits the wall or the ghost, then game is over
                     if (((PictureBox)x).Bounds.IntersectsWith(pacman.Bounds) || score == 30)
@@ -167,7 +167,7 @@ namespace missPACMAN
                 }
                 if (x is PictureBox )
 
-                    if ((string) x.Tag == "coin")
+                    if ((string) x.Tag == "coin" && x.Visible == true )
                     {
                         if (pacman.Bounds.IntersectsWith(x.Bounds))
 

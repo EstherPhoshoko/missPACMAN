@@ -71,7 +71,7 @@ namespace missPACMAN
             this.pictureBox32 = new System.Windows.Forms.PictureBox();
             this.pictureBox33 = new System.Windows.Forms.PictureBox();
             this.pictureBox34 = new System.Windows.Forms.PictureBox();
-            this.label = new System.Windows.Forms.Label();
+            this.txtScore = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pacman)).BeginInit();
@@ -150,6 +150,7 @@ namespace missPACMAN
             this.pinkGhost.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pinkGhost.TabIndex = 7;
             this.pinkGhost.TabStop = false;
+            this.pinkGhost.Tag = "ghost";
             // 
             // redGhost
             // 
@@ -160,6 +161,7 @@ namespace missPACMAN
             this.redGhost.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.redGhost.TabIndex = 6;
             this.redGhost.TabStop = false;
+            this.redGhost.Tag = "ghost";
             // 
             // yellowGhost
             // 
@@ -170,6 +172,7 @@ namespace missPACMAN
             this.yellowGhost.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.yellowGhost.TabIndex = 5;
             this.yellowGhost.TabStop = false;
+            this.yellowGhost.Tag = "ghost";
             // 
             // pictureBox3
             // 
@@ -179,7 +182,7 @@ namespace missPACMAN
             this.pictureBox3.Size = new System.Drawing.Size(39, 178);
             this.pictureBox3.TabIndex = 4;
             this.pictureBox3.TabStop = false;
-            this.pictureBox3.Tag = "Wall";
+            this.pictureBox3.Tag = "wall";
             // 
             // pictureBox4
             // 
@@ -189,7 +192,7 @@ namespace missPACMAN
             this.pictureBox4.Size = new System.Drawing.Size(39, 178);
             this.pictureBox4.TabIndex = 3;
             this.pictureBox4.TabStop = false;
-            this.pictureBox4.Tag = "Wall";
+            this.pictureBox4.Tag = "wall";
             // 
             // pictureBox2
             // 
@@ -199,7 +202,7 @@ namespace missPACMAN
             this.pictureBox2.Size = new System.Drawing.Size(39, 178);
             this.pictureBox2.TabIndex = 1;
             this.pictureBox2.TabStop = false;
-            this.pictureBox2.Tag = "Wall";
+            this.pictureBox2.Tag = "wall";
             // 
             // pictureBox1
             // 
@@ -209,7 +212,7 @@ namespace missPACMAN
             this.pictureBox1.Size = new System.Drawing.Size(39, 178);
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
-            this.pictureBox1.Tag = "Wall";
+            this.pictureBox1.Tag = "wall";
             this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // pictureBox6
@@ -531,30 +534,30 @@ namespace missPACMAN
             this.pictureBox34.TabStop = false;
             this.pictureBox34.Tag = "coin";
             // 
-            // label
+            // txtScore
             // 
-            this.label.AutoSize = true;
-            this.label.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label.Location = new System.Drawing.Point(12, 9);
-            this.label.Name = "label";
-            this.label.Size = new System.Drawing.Size(81, 20);
-            this.label.TabIndex = 39;
-            this.label.Text = "Score : 0";
-            this.label.VisibleChanged += new System.EventHandler(this.resetGame);
-            this.label.Click += new System.EventHandler(this.label1_Click);
+            this.txtScore.AutoSize = true;
+            this.txtScore.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtScore.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.txtScore.Location = new System.Drawing.Point(8, 9);
+            this.txtScore.Name = "txtScore";
+            this.txtScore.Size = new System.Drawing.Size(81, 20);
+            this.txtScore.TabIndex = 39;
+            this.txtScore.Text = "Score : 0";
+            this.txtScore.VisibleChanged += new System.EventHandler(this.resetGame);
+            this.txtScore.Click += new System.EventHandler(this.label1_Click);
             // 
             // label2
             // 
-            this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.SystemColors.AppWorkspace;
             this.label2.Enabled = false;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.label2.Location = new System.Drawing.Point(127, 9);
+            this.label2.Location = new System.Drawing.Point(93, 270);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(91, 20);
+            this.label2.Size = new System.Drawing.Size(402, 58);
             this.label2.TabIndex = 40;
-            this.label2.Text = "Gameover";
+            this.label2.Text = "gameover";
             // 
             // Form1
             // 
@@ -567,7 +570,7 @@ namespace missPACMAN
             this.Controls.Add(this.redGhost);
             this.Controls.Add(this.yellowGhost);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.label);
+            this.Controls.Add(this.txtScore);
             this.Controls.Add(this.pictureBox34);
             this.Controls.Add(this.pictureBox33);
             this.Controls.Add(this.pictureBox32);
@@ -694,7 +697,7 @@ namespace missPACMAN
         private System.Windows.Forms.PictureBox pictureBox32;
         private System.Windows.Forms.PictureBox pictureBox33;
         private System.Windows.Forms.PictureBox pictureBox34;
-        private System.Windows.Forms.Label label;
+        private System.Windows.Forms.Label txtScore;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Timer gametimer;
     }
