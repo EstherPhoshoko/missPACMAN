@@ -562,6 +562,10 @@ namespace missPACMAN
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.ClientSize = new System.Drawing.Size(609, 531);
+            this.Controls.Add(this.pacman);
+            this.Controls.Add(this.pinkGhost);
+            this.Controls.Add(this.redGhost);
+            this.Controls.Add(this.yellowGhost);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label);
             this.Controls.Add(this.pictureBox34);
@@ -594,10 +598,6 @@ namespace missPACMAN
             this.Controls.Add(this.pictureBox7);
             this.Controls.Add(this.pictureBox6);
             this.Controls.Add(this.pictureBox5);
-            this.Controls.Add(this.pacman);
-            this.Controls.Add(this.pinkGhost);
-            this.Controls.Add(this.redGhost);
-            this.Controls.Add(this.yellowGhost);
             this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.pictureBox4);
             this.Controls.Add(this.pictureBox2);
